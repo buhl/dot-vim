@@ -1,6 +1,6 @@
 if has("vim_starting")
   set nocompatible
-  set runtimepath+=~/.vim/bundle/neobundle/
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
   set background=dark
 
   "{ Useability/misc

@@ -1,5 +1,5 @@
 [submodule "bundle/neobundle"]
-	path = bundle/neobundle
+	path = bundle/neobundle.vim
 	url = https://github.com/Shougo/neobundle.vim
 [submodule "bundle/colour-schemes"]
 	path = bundle/colour-schemes
