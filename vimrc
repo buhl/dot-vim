@@ -235,7 +235,8 @@ NeoBundle "Shougo/neosnippet.vim.git"
 NeoBundle "Shougo/neosnippet-snippets.git"
 NeoBundle "daylerees/colour-schemes.git", { "rtp": "vim/" }
 NeoBundle "flazz/vim-colorschemes.git"
-NeoBundle "chrisbra/csv.vim.git"
+"NeoBundle "chrisbra/csv.vim.git"
+"NeoBundle "chrisbra/csv.vim.git"
 NeoBundle "mbbill/undotree.git"
 NeoBundle "vim-scripts/boxdraw.git"
 
@@ -313,9 +314,9 @@ endif
 
 " unicode symbols
 let g:airline_left_sep = '»'
-let g:airline_left_sep = '▶'
+let g:airline_left_sep = ''
 let g:airline_right_sep = '«'
-let g:airline_right_sep = '◀'
+let g:airline_right_sep = ''
 let g:airline_symbols.linenr = '␊'
 let g:airline_symbols.linenr = '␤'
 let g:airline_symbols.linenr = '¶'
