@@ -222,7 +222,7 @@ NeoBundle "scrooloose/nerdtree.git"
 NeoBundle "scrooloose/nerdcommenter.git"
 NeoBundle "mattn/emmet-vim.git"
 NeoBundle "bling/vim-airline.git"
-"NeoBundle "airblade/vim-gitgutter.git"
+NeoBundle "airblade/vim-gitgutter.git"
 "maybe https://github.com/mhinz/vim-signify.git
 NeoBundle "kien/ctrlp.vim.git"
 "NeoBundle "bling/vim-bufferline.git"
@@ -328,11 +328,13 @@ let g:airline_symbols.whitespace = 'Ξ'
 ""}}}
 
 ""{{{ airblade/vim-gitgutter.git
-"let g:gitgutter_sign_added = 'xx'
-"let g:gitgutter_sign_modified = 'yy'
-"let g:gitgutter_sign_removed = 'zz'
-"let g:gitgutter_sign_modified_removed = 'ww'
-"let g:gitgutter_diff_args = '-w'
+let g:gitgutter_sign_added = '+'
+let g:gitgutter_sign_modified = '~'
+let g:gitgutter_sign_removed = '-'
+let g:gitgutter_sign_removed_first_line = '^-'
+let g:gitgutter_sign_modified_removed = '~-'
+let g:gitgutter_diff_args = '-w'
+let g:gitgutter_enabled = 0
 ""}}}
 
 ""{{{ klein/ctrlp.vim.git
